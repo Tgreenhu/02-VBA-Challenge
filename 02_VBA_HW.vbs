@@ -46,6 +46,11 @@ Sub Calc_Summary()
             close_price = Cells(Row, "F").Value
             yearly_change = (close_price - open_price)
             Cells(sum_rows, "J").Value = yearly_change
+            If yearly_change > 0 Then
+                Range(sum_rows, "J").Interior.ColorIndex = 4
+            Else
+                Range(sum_rows, "J").Interior.ColorIndex = 3
+            End if
             'PERCENT CHANGE
             If (open_price = 0 And close_price = 0) Then
                 percent_change = 0
