@@ -19,3 +19,4 @@ My total stock volume was found using the same conditional as finding each stock
 
 Using these functions and conditionals, we can use the table to sort through our table of stocks to find information such as greatest increase, greatest decrease, most volatile, and more.
 
+![02-VBA-HW-2014](https://user-images.githubusercontent.com/23372412/116949387-023f5c00-ac50-11eb-9bba-77ed3f6e9997.png)
